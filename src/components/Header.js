@@ -1,8 +1,9 @@
+import logo from "../assets/logo.svg";
 const Header = () => {
     return (
         <>
             <div>
-                Header
+            <img className="logo" src={logo} alt="logo"/>
             </div></>
     )
 }
