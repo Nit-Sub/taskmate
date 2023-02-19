@@ -4,23 +4,27 @@ import Footer from './components/Footer';
 import { useState } from 'react';
 
 function App() {
-  const [count , setCount]= useState(0);
-  console.log(count)
-  const handleAddition=()=>{
-    setCount(count+1)
-
-  }
-  const handleSubstraction=()=>{
-    setCount(count-1)
-  }
+  const [tasks , setTasks]= useState([
+    {
+      id: 1 , name:"Nitesh", completed:true
+    },{
+      id: 2 , name:"Nit", completed:false
+    },{
+      id: 3 , name:"Sub", completed:true
+    }
+  ])
   return (
     <>
     <div className='App'>
-      <div className='box'>
-    <p>{count}</p>
-    <button onClick={handleAddition}>Add</button>
-    <button onClick={handleSubstraction}>Sub</button>
-      </div>
+      <h1>Task List</h1>
+      <ul>
+        {tasks.map((task)=>(
+          <li key={task.id}>
+            <span>{task.id}- {task.name}</span>
+            <button>Delete</button>
+          </li>
+        ))}
+      </ul>
 
     </div>
     </>
