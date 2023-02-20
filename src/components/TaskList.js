@@ -1,7 +1,8 @@
 import React,{useState} from 'react'
 
 
-const TaskList = () => {
+const TaskList = (title) => {
+    console.log(title)
     const [tasks, setTasks] = useState([
         {
           id: 1, name: "Nitesh", completed: true
