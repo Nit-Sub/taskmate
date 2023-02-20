@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import TaskCard from './TaskCard';
-
+import BoxCard from './BoxCard';
 
 const TaskList = (title) => {
     console.log(title)
@@ -40,6 +40,11 @@ const TaskList = (title) => {
         <button onClick={() => shows()} >Show</button>
 
         <button onClick={() => hide()} >hide</button>
+
+        <BoxCard title="Lorem" result="alert" description="LoremLoremLoremLoremLorem"/>
+        <BoxCard title="Lorem" result="success" description="LoremLoremLoremLoremLoremLoremLoremLoremLoremLorem"/>
+        <BoxCard title="Lorem" result="warning" description="LoremLoremLoremLoremLoremLoremLoremLoremLoremLorem"/>
+
 
     </>
   )
