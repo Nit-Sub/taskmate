@@ -1,9 +1,10 @@
 const Footer = () => {
     return (
         <>
-            <div>
-                Footer
-            </div></>
+        <footer>
+           <p> 2030-TaskMate</p>
+        </footer>
+            </>
     )
 }
 export default Footer;
