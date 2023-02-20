@@ -2,8 +2,8 @@ import React,{useState} from 'react'
 import TaskCard from './TaskCard';
 import BoxCard from './BoxCard';
 
-const TaskList = (title) => {
-    console.log(title)
+const TaskList = () => {
+    
     const [tasks, setTasks] = useState([
         {
           id: 1, name: "Nitesh", completed: true
