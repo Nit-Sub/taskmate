@@ -38,7 +38,6 @@ const TaskList = () => {
           ))}
         </ul>
         <button onClick={() => shows()} >Show</button>
-
         <button onClick={() => hide()} >hide</button>
 
         <BoxCard title="Lorem" result="alert" description="LoremLoremLoremLoremLorem"/>
