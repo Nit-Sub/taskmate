@@ -8,8 +8,9 @@
 .body{
     background-color: grey;
     min-height: 20vh;
-    max-width: 10rem;
-    margin-left: 500px;
+    max-width: 500px;
+    margin-left: 400px;
+    text-align: center;
     
    
 }
