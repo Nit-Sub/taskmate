@@ -5,9 +5,7 @@ const BoxCard = ({ result, children }) => {
     return (
         <><div className={show ? "" : "hidden"}>
             <div className={`box ${result}`}>
-                {
-                    children
-                }
+                {children}
                 <button className='trigger' onClick={() => setShow(!show)}> hidden</button>
             </div>
         </div>
