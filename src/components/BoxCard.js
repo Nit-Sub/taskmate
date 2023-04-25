@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 
 const BoxCard = ({ result, children }) => {
-    const [show , setShow]=useState(true)
+    const [show, setShow] = useState(true)
     return (
-        <><div className={show?"":"hidden"}>
+        <><div className={show ? "" : "hidden"}>
             <div className={`box ${result}`}>
                 {
                     children
                 }
-                <button className='trigger' onClick={()=>setShow(!show)}> hidden</button>
+                <button className='trigger' onClick={() => setShow(!show)}> hidden</button>
             </div>
         </div>
         </>
