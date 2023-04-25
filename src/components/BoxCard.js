@@ -12,5 +12,4 @@ const BoxCard = ({ result, children }) => {
         </>
     )
 }
-
 export default BoxCard
