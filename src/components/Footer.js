@@ -1,8 +1,9 @@
 import React from 'react'
 
 const Footer = () => {
-    return (<>    <hr />
+    return (<>   
         <footer>
+        <hr style={{width:'100%' }} />
             2023-TaskMate
         </footer>
     </>
