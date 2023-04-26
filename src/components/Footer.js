@@ -1,14 +1,13 @@
- import React from 'react'
- 
- const Footer = () => {
-   return (<>    <hr/>
-     <footer>
-       
-        2023-TaskMate
-     </footer>
-     </>
+import React from 'react'
 
-   )
- }
- 
- export default Footer
+const Footer = () => {
+    return (<>    <hr />
+        <footer>
+            2023-TaskMate
+        </footer>
+    </>
+
+    )
+}
+
+export default Footer
