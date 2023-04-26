@@ -1,14 +1,9 @@
-import React from 'react'
+import "./Footer.css";
 
-const Footer = () => {
-    return (<>   
-        <footer>
-        <hr style={{width:'100%' }} />
-            2023-TaskMate
-        </footer>
-    </>
-
-    )
+export const Footer = () => {
+  return (
+    <footer>
+        <p>2030 - TaskMate</p>
+    </footer>
+  )
 }
-
-export default Footer;

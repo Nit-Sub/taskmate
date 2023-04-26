@@ -1,18 +1,15 @@
-
+import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
+import { TaskList } from "./components/TaskList";
 import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import TaskList from './components/TaskList';
 
 function App() {
-
 
   return (
     <div className="App">
       <Header />
       <TaskList />
-      <Footer/>
-
+      <Footer />
     </div>
   );
 }
