@@ -15,7 +15,7 @@ const AddTask = () => {
     return (
         <>
             <section className="addtask">
-                <form>
+                <form >
                     <label htmlFor="task">Task Name:</label>
                     <input onChange={handleChange} type="text" name="task" id="task" placeholder='Task Name' autoComplete='off' value={taskValue} />
                     <button type="submit" >AddTask</button>
