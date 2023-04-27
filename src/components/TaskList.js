@@ -14,7 +14,6 @@ export const TaskList = () => {
     function handleDelete(id){
         setTasks(tasks.filter(task => task.id !== id));
     }
-
   return (
     <section className='tasklist'>
         <ul>
