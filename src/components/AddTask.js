@@ -6,7 +6,6 @@ const AddTask = ({ tasks, setTasks }) => {
     const [progress, setProgress] = useState("");
     const handleChange = (event) => {
         setTaskValue(event.target.value)
-
     }
     const handleReset = () => {
         setTaskValue("");
